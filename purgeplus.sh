@@ -2,8 +2,7 @@
 # purges debian OS while installing qemu
 apt-get update --fix-missing
 apt-get dist-upgrade
-apt-get install git fakeroot ncurses-dev xz-utils libssl-dev bd flex libelf-dev bison
-apt-get install build-essential gparted git vlc
+apt-get install git fakeroot ncurses-dev xz-utils libssl-dev bd flex libelf-dev bison build-essential gparted vlc
 git clone https://github.com/LostByteSoft/Debian-10
 cd Debian-10/
 cd Debian_12
